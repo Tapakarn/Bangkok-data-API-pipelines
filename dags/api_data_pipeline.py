@@ -173,7 +173,7 @@ with DAG(
     # ส่งอีเมลแจ้งเตือนเมื่อทำงานเสร็จ
     send_email = EmailOperator(
         task_id="send_email",
-        to=["kan@odds.team"],
+        to=["tapakarnkotchaply@gmail.com"],
         subject="Finished getting open weather data",
         html_content="Done",
     )
